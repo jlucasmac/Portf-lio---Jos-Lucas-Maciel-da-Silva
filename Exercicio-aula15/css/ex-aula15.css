@@ -1,0 +1,161 @@
+header{
+    text-align: center;
+    margin: 15px 0 14px;
+}
+.espacamento{
+    margin-top: 96px;
+}
+
+/* ARTIGOS */
+.row-artigo1{
+    gap: 24px;
+    padding-left: 0;
+}
+.row-artigo2{
+    justify-content: space-between;
+    align-items: center;
+}
+.artigo1{
+    width: 50%;
+    margin: 14px 0;
+    padding: 32px 0;
+}
+.artigo1 p{width: 94%;}
+.artigo1 p, .artigo2 p, .conteudo p, .row-receita p{
+    font: normal 16px/24px Arial, Helvetica, sans-serif;
+    letter-spacing: 0.04em;
+    color: #4D4D4D;
+}
+.artigo2{padding: 32px 0;}
+.artigo-main h2{
+    color: #000;
+    font: bold 48px/58px Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+}
+.artigo2 h2, .artigo2 p{margin-left: 48px;}
+.artigo2 h2{width: 80%;}
+.artigo2 p{width: 68%;}
+
+/* CONHEÇA */
+.conheca{justify-content: space-between;}
+.conheca p{
+    text-align: center;
+    font: normal 16px/24px Arial, Helvetica, sans-serif;
+    letter-spacing: 0.04em;
+    color: #000
+}
+.conheca a{color: #FF651A;}
+.conheca figure{
+    width: fit-content;
+    gap: 96px;
+    margin-bottom: 16px;
+}
+.conheca .primeira{margin-left: 88px;}
+.conheca .ultima{margin-right: 88px;}
+.conteudo2 h3, .artigo-main .espacamento h3{
+    font: normal 24px/37px Arial, Helvetica, sans-serif;
+    padding: 32px 0;
+    margin: 40px 0 24px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #000;
+}
+.artigo-main .espacamento h3{
+    font: normal 40px/54px Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+.conteudo-main{
+    background: #F4DCC3;
+    padding: 40px 0 80px;
+}
+.conteudo h2{
+    font: bold 40px/54px Arial, Helvetica, sans-serif;
+    color: #000;
+    margin-bottom: 16px;
+}
+.conteudo{
+    padding: 32px 0 32px 24px;
+}
+.conteudo p{
+    width: 90%;
+    margin-bottom: 25px;
+}
+.conteudo2 p{
+    margin-top: 16px;
+    width: 99%;
+    padding:0 32px;
+}
+.conteudo-main2{
+    background: #E8E7C1;
+    padding: 40px 0 80px;
+}
+.conteudo-main3{
+    background: #F4DDD6;
+    padding: 40px 0 80px;
+}
+.receita-main{
+    margin-bottom: 96px;
+}
+.receita1{
+    width: 47%;
+    margin-right: 64px;
+}
+.receita1 p{
+    width: 99.5%;
+}
+.row-receita{
+    margin-top: 24px;
+    align-items: center;
+}
+.row-receita .receita1{padding: 81px 0 81px 10px;}
+.row-receita h2{
+    margin-bottom:32px;
+    color: #000;
+    font: bold 48px/58px Arial, Helvetica, sans-serif;
+}
+.ecommerce{margin-bottom: 96px;}
+.row-ecommerce h4, .row-ecommerce figure{
+    font: normal 16px/24px Arial, Helvetica, sans-serif;
+}
+.row-ecommerce p{
+    font: normal 12px/16px Arial, Helvetica, sans-serif;
+}
+.row-ecommerce span{
+    display: flex;
+    gap: 65px;
+}
+.risco{
+    text-decoration: line-through;
+    color: #4D4D4D;
+}
+.risco{
+    margin-bottom: 4px;
+    padding: 4px 1px 2px;
+}
+.row-ecommerce article p:nth-child(5){
+    color: #000;
+}
+.row-ecommerce span{align-items: center;}
+.row-ecommerce span p:nth-child(1){
+    font: bold 24px/29px Arial, Helvetica, sans-serif;
+    color: #662100;
+}
+.row-ecommerce span p:nth-child(2){
+    font-weight: bold;
+    color: #fff;
+    background: #333;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.row-ecommerce article p:nth-child(6){
+    background: #FF8723;
+    text-align: center;
+    width: 79%;
+    padding: 16px 0;
+    font-weight: bold;
+    font: bold 12px/18px Arial, Helvetica, sans-serif;
+    letter-spacing: 0.08em;
+}
+.row-ecommerce:nth-child(1){margin-left: 88px;}
+.row-ecommerce:nth-child(3){margin-right: 88px;}
